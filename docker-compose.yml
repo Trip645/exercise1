@@ -1,0 +1,35 @@
+services:
+  service1:
+    build: ./service1
+    depends_on:
+      - service2
+      - storage
+    volumes:
+      - vStorage:/vstorage
+    ports:
+      - "8199:8080" # Only Service1 is exposed to host
+    networks:
+      - backend
+
+  service2:
+    build: ./service2
+    depends_on:
+      - storage
+    volumes:
+      - vStorage:/vstorage
+    networks:
+      - backend
+
+  storage:
+    build: ./storage
+    volumes:
+      - storage_data:/data
+    networks:
+      - backend
+
+volumes:
+  vStorage:
+  storage_data:
+
+networks:
+  backend:

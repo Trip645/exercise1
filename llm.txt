@@ -1,0 +1,40 @@
+LLM Usage Report - DevOps Exercise 1: Microservices
+
+Used LLM Tool:
+- GitHub Copilot (Claude-based AI assistant integrated in VS Code)
+
+Motivation/Reason to Use LLM:
+- Assistance with Docker containerization setup and configuration
+- Help with creating multiple service implementations (Node.js and Python)
+- Guidance on Docker Compose networking and volume configuration
+- Support for debugging container communication issues
+
+How and Why LLM Helped:
+1. Helped with understand the requirements and file structure setup
+2. Helped with writing the code and also made understanding easy.
+3. Helped with Python programming due to my very basic level Python coding skill.
+4. Provided guidance on port mappings, service communication and volume mount configurations for persistent storage.
+5. Helped with problem solving for service communication issues between containers.
+6. Helped understand Docker image caching and rebuilding especially when code modifications were not being reflected.
+7. Provided detailed cleanup instructions and best practices
+8. Helped with understanding the service communication flow and ideation for drawing the system architecture, network and storage diagram.
+
+
+What Kind of Mistakes LLM Did:
+1. Occasionally suggested Linux-specific commands when working in Windows PowerShell environment
+2. Initially suggested an over-complex solution with libraries that were not needed in package.json.
+
+What Were Things That LLM Was Not Able to Provide:
+1. Required manual verification of actual system specifications and versions
+2. Could not assess what level of complexity was appropriate.
+
+
+- The LLM provided significant value in accelerating development and learning
+- Most effective when used for code ideation, generation, documentation and problem-solving guidance
+- Required human oversight
+- Enhanced understanding of Docker concepts through explanations and best practices
+
+Student Acknowledgment:
+I acknowledge that this LLM usage report accurately reflects the assistance received during this exercise. I understand this information may be used for grading purposes and (after anonymization) for teaching development and research purposes.
+
+Date: September 24, 2025
